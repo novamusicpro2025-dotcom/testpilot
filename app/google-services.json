@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "749424011732",
+    "project_id": "testpilot-community",
+    "storage_bucket": "testpilot-community.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749424011732:android:3d095c526b16f402774e41",
+        "android_client_info": {
+          "package_name": "com.nova.a12tester"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749424011732-l1kkphqu28uhsdfpgtgga7pl29hsoooa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0rfdITfort2MYzTCtRdwWqa_D-Sur-dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749424011732-l1kkphqu28uhsdfpgtgga7pl29hsoooa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
