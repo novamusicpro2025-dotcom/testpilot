@@ -91,7 +91,8 @@ fun SettingsScreen(
                     horizontalArrangement = Arrangement.SpaceBetween, 
                     modifier = Modifier.fillMaxWidth().clickable {
                         try {
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://testpilot.io/privacy"))
+                            // NOTE: Replace 'your-username' with your actual GitHub username once you publish the repo
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://your-username.github.io/TestPilot-Docs/privacy.html"))
                             context.startActivity(intent)
                         } catch (e: Exception) { }
                     }.padding(vertical = 4.dp)
@@ -107,7 +108,8 @@ fun SettingsScreen(
                     horizontalArrangement = Arrangement.SpaceBetween, 
                     modifier = Modifier.fillMaxWidth().clickable {
                         try {
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://testpilot.io/terms"))
+                            // NOTE: Replace 'your-username' with your actual GitHub username once you publish the repo
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://your-username.github.io/TestPilot-Docs/terms.html"))
                             context.startActivity(intent)
                         } catch (e: Exception) { }
                     }.padding(vertical = 4.dp)
