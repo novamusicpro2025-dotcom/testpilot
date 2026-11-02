@@ -92,7 +92,7 @@ fun SettingsScreen(
                     modifier = Modifier.fillMaxWidth().clickable {
                         try {
                             // NOTE: Replace 'your-username' with your actual GitHub username once you publish the repo
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://your-username.github.io/TestPilot-Docs/privacy.html"))
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://novamusicpro2025-dotcom.github.io/testpilot/docs/privacy.html"))
                             context.startActivity(intent)
                         } catch (e: Exception) { }
                     }.padding(vertical = 4.dp)
@@ -109,7 +109,7 @@ fun SettingsScreen(
                     modifier = Modifier.fillMaxWidth().clickable {
                         try {
                             // NOTE: Replace 'your-username' with your actual GitHub username once you publish the repo
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://your-username.github.io/TestPilot-Docs/terms.html"))
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://novamusicpro2025-dotcom.github.io/testpilot/docs/terms.html"))
                             context.startActivity(intent)
                         } catch (e: Exception) { }
                     }.padding(vertical = 4.dp)
